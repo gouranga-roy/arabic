@@ -953,3 +953,70 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
           .contact-wrapper02 .contact-info ul li p {
             font-size: 10px;
             line-height: 16.22px; } }
+
+.account-form {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #C3C3C3;
+  padding: 42px 16px 18px;
+  border-radius: 27px;
+  text-align: right; }
+  .account-form form label {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #6C6868; }
+  .account-form form input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: var(--white-color);
+    border-bottom: 1px solid #8D8D8D;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 2px 0;
+    text-align: right;
+    margin: 0 0 20px; }
+  .account-form form select {
+    width: 100%;
+    padding: 4px;
+    color: #8D8D8D;
+    border-bottom: 1px solid #8D8D8D;
+    direction: rtl;
+    text-align: left; }
+  .account-form form button {
+    width: 100%;
+    font-size: 15px;
+    padding: 12.2px; }
+  .account-form form .acLogin {
+    display: inline-block;
+    float: left;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #213242;
+    margin: 16px 0 16px; }
+    .account-form form .acLogin:hover {
+      color: var(--primary-color); }
+  .account-form .login-other {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 28px; }
+    .account-form .login-other a {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 18px;
+      color: var(--primary-color); }
+      .account-form .login-other a:last-child {
+        color: #646464; }
