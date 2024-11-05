@@ -1,0 +1,53 @@
+/*
+Theme Name: Uroan - eCommerce HTML Template
+Author: WebritoTheme
+Author URI: https://themeforest.net/user/webritotheme
+Tags: uroan, ecommerce, blog, fashion products, online shop, ecommerce store
+Description: Uroan - An eCommerce HTML5 Template
+Version: 1.1.0
+*/
+
+/************************************** base css **************************************/
+@import 'base/variables';
+@import 'base/mixin';
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/spacing';
+
+
+/******************************* theme css **********************************/
+@import 'theme/theme-class';
+@import 'theme/preloader';
+@import 'theme/animations';
+
+
+/******************************** components ******************************/
+@import 'components/header';
+@import 'components/preloader';
+@import 'components/buttons';
+@import 'components/product-card';
+@import 'components/footer';
+@import 'components/offcanvus';
+@import 'components/icon-box';
+@import 'components/banner';
+@import 'components/breadcrumb';
+@import 'components/sidebar';
+@import 'components/pagination';
+@import 'components/form';
+@import 'components/modal';
+
+/****************************** page styles ******************************/
+@import 'pages/index-1';
+@import 'pages/index-3';
+@import 'pages/about';
+@import 'pages/pricing';
+@import 'pages/product-single';
+@import 'pages/product-details2';
+@import 'pages/cart';
+@import 'pages/wishlist';
+@import 'pages/404';
+@import 'pages/contact';
+@import 'pages/faq';
+@import 'pages/checkout';
+@import 'pages/blog';
+@import 'pages/index-2';

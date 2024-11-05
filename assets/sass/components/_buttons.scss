@@ -1,0 +1,19 @@
+.arabic-btn {
+    position: relative;
+    display: inline-block;
+    font-size: 17.42px;
+    font-weight: 700;
+    line-height: 20.91px;
+    background: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 15.68px;
+    padding: 16px 45px;
+    @include screen-768 {
+        font-size: 13.83px;
+        line-height: 16.59px;
+        padding: 12px 35px;
+    }
+}
+.arabic-btn:hover {
+    background: var(--black-color);
+}

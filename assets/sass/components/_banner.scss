@@ -1,0 +1,54 @@
+// Hero Area
+.hero-section {
+    position: relative;
+}
+.hero-title {
+    p {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30px;
+        @include screen-768 {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+}
+.hero-image {
+    img {
+        max-width: 100%;
+        border-radius: 27px;
+    }
+    @include screen-768 {
+        margin: 0 0 20px;
+    }
+
+}
+.hero-content {
+    text-align: right;
+    @include screen-768 {
+        text-align: center;
+    }
+    h2 {
+        margin: 0 0 26px;
+        @include large-screen {
+            font-size: 32px;
+        }
+        @include screen-768 {
+            font-size: 27.78px;
+            line-height: 57.94px;
+            margin: 0 0 16px;
+        }
+    }
+    p {
+        font-size: 20px;
+        line-height: 31px;
+        margin: 0 0 27px;
+        direction: rtl;
+        text-align: justify;
+        @include screen-768 {
+            font-size: 15.87px;
+            line-height: 24.6px;
+
+        }
+    }
+}

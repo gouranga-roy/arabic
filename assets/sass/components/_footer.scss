@@ -1,0 +1,92 @@
+// Footer Area
+.arabic_footer {
+    background: #F9F9F9;
+    padding: 135px 0 0;
+
+    @include screen-992 {  
+        padding: 100px 0 0;
+        .row.mb-60 {
+            margin-bottom: 0;
+        }
+    }
+    @include screen-768 {
+        .row.sm-columns-reverse {
+            flex-direction: column-reverse;
+        }    
+        padding: 60px 0 0;
+    }
+    .footer-widget {
+        text-align: right;
+        @include screen-992 {
+            margin: 0 0 60px;
+        }
+        .footer-title {
+            font-size: 18px;
+            line-height: 21.6px;
+            color: var(--black-color);
+            margin: 0 0 10px;
+        }
+        a {
+            font-size: 15px;
+            line-height: 18px;
+            letter-spacing: 0.12em;
+            color: var(--black-color);
+            display: inline-block;
+            &:hover {
+                color: var(--primary-color);
+            }
+        }
+        .footer-social {
+            display: flex;
+            gap: 7px;
+            justify-content: flex-end;
+            margin-top: 14px;
+            @include screen-768 {
+                justify-content: center;        
+            }
+            a {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                width: 30px;
+                height: 30px;
+                background: #E4F0FF;
+                border-radius: 8px;
+                &:hover {
+                    background: var(--primary-color);
+                }
+                &:hover svg path {
+                    fill: var(--white-color);
+                }
+            }
+        }
+        ul {
+            margin-top: 14px;
+          li {
+            margin: 0 0 8px;
+            a {
+                font-size: 15px;
+                line-height: 18px;
+                &:hover {
+                    color: var(--primary-color);
+                }
+            }
+            &:last-child {
+                margin: 0;
+            }
+          }
+        }
+        @include screen-768 {
+            text-align: center;         
+        }
+    }
+    .footer-copyright {
+        border-top: 1px solid #C3C3C3;
+        font-weight: 700;
+        padding: 17px 0;
+        font-size: 15px;
+        p {
+            margin-bottom: 0;
+        }
+    }
+}

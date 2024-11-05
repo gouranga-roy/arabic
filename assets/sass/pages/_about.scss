@@ -1,0 +1,95 @@
+// About Section
+.about-section {
+    position: relative;
+    .about-img {
+        img {
+            max-width: 100%;
+            border-radius: 11px;
+        }
+    }
+    .about-content {
+        padding-left: 10px;
+        @include screen-768 {
+            text-align: center !important;
+        }
+        h2 {
+            font-size: 45.4px;
+            line-height: 58.36px;
+            @include large-screen {
+                font-size: 40px;
+                line-height: 54px;
+            }
+            @include screen-768 {
+                font-size: 32.97px;
+                line-height: 54.97px;
+                margin: 30px 0 0;
+            }
+        }
+        h3 {
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 58.36px;
+            margin: 0 0 12px;
+            @include screen-992 {
+                font-size: 24px;
+                line-height: 36px;
+            }
+            @include screen-768 {
+                font-size: 23.55px;
+                font-weight: 600;
+                line-height: 54.97px;
+            }
+        }
+        p {
+            font-size: 20px;
+            line-height: 31px;
+        }
+    }
+}
+
+// About Page
+.about-pageSection {
+    position: relative;
+    padding-bottom: 100px;
+}
+.about-pageContent {
+    position: relative;
+    padding: 50px 30px 57px;
+    margin-bottom: 50px;
+    @include screen-768 {
+        padding: 50px 20px 57px;
+        margin-bottom: 46px;
+    }
+    h4 {
+        font-size: 32px;
+        line-height: 73px;
+        color: var(--heading-color);
+        margin-bottom: 0;
+        margin-right: 30px;
+        @include screen-768 {
+            font-size: 28px;
+        }
+    }
+    img {
+        position: relative;
+        margin-top: -20px;
+        right: -10px;
+    }
+    p {
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 31px;
+        color: #606060;
+        margin: 0;
+        strong {
+            color: #00008B;
+        }
+        @include screen-768 {
+            font-size: 16px;
+            line-height: 31px;
+            direction: rtl;
+            text-align: justify;
+        }
+    }
+
+}
